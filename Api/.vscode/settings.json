@@ -1,0 +1,11 @@
+{
+    "workbench.iconTheme": "vscode-icons",
+    "workbench.colorTheme": "One Dark Pro",
+    "workbench.preferredDarkColorTheme": "One Dark Pro",
+    "workbench.colorCustomizations": {
+        "tab.activeBackground": "#282c34",
+        "activityBar.background": "#282c34",
+        "sideBar.background": "#282c34"
+    },
+    "vsicons.presets.nestjs": true
+}
