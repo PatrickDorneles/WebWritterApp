@@ -1,0 +1,17 @@
+{
+  "type": "postgres",
+  "host": "localhost",
+  "port": 5432,
+  "username": "postgres_user",
+  "password": "postgres_pass",
+  "database": "flaming20_dev",
+  "entities": [
+    "dist/**/*.entity{.ts,.js}"
+  ],
+  "migrations": [
+    "dist/database/migrations/*{.ts,.js}"
+  ],
+  "cli": {
+    "migrationsDir": "src/database/migrations"
+  }
+}
